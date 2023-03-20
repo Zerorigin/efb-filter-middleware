@@ -1,0 +1,22 @@
+﻿version: 4.99
+match_mode: fuzz # fuzz | exact
+strict_mode: yes # on/true/yes | off/false/no
+
+work_filters:
+  - black_groups
+  - black_persons
+  - white_groups
+  - white_persons
+
+black_groups:
+  - nogp
+
+black_persons:
+  - nopp
+
+white_groups:
+  - testsyou
+  - 经典
+
+white_persons:
+  - libai
